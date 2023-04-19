@@ -1,0 +1,275 @@
+@charset "UTF-8";
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+body{
+    margin: 0;
+    background-color: #f7f7f8;
+}
+
+
+/*navigation*/
+nav{
+  font-family: verdana, sans-serif;
+  padding-bottom: 6px;
+  padding-top: 6px;
+  overflow: auto;
+  position: fixed;
+  width: 100%;
+}
+nav, footer{
+    background-color: #181c34;
+}
+nav ul {
+  margin: 0;
+  padding: 10px;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+nav ul li {
+  font-size: .8em;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: .5em 1em;
+    margin: .5em;
+}
+nav ul li a:visited {
+  color: #fff;
+}
+nav ul li a:hover, nav ul li a:active {
+  color: #F9AB33;
+}
+#logo1 p{
+    position: absolute;
+    top:0px;
+    left:40px;
+}
+#headline{
+    text-align: center;
+    padding-top: 13.5em;
+    padding-bottom: 16em;
+    background: url(Images/others/background.jpg) no-repeat center;
+    background-size: cover;
+}
+#headline h1{
+    font-family: Georgia, serif;
+    font-size: 3em;
+    color: #FFF;
+}
+#headline p {
+    color: #fff;
+    font-family: Georgia, serif;
+    font-style: italic;
+}
+#headline #p1{
+    font-size: 25px;
+    text-transform: capitalize;
+}
+#headline #p2{
+    font-size: 20px;
+    line-height: 1.5em;
+}
+
+
+/*Main*/
+main{
+    margin: 6%;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px 5px #eae9e9;
+    padding: 1%;  
+}
+.topics{
+    padding-left: .5em;
+    font-family: sans-serif;
+    color: #181c34;
+}
+#cities{
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    background-color: #f7f7f8;
+}
+.City{
+    margin: 1%;
+    border-radius: 5px;
+    background-color: #FFF;
+    box-shadow: 1px 1px 5px 5px #eae9e9;
+    text-align: center;
+    font-family: Californian FB;
+}
+#Citya :visited{
+    color: #181c34;
+}
+#City a :hover #City a :active{
+    color:  #d07e00;
+}
+.City h3{
+    color: #181c34;
+    font-family: Bahnschrift SemiBold;
+}
+#cities a{
+    text-decoration: none;
+}
+#places{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    justify-content: center;
+}
+.place{
+    margin: 1%;
+    background-color: #f7f7f8;
+    box-shadow: 0 0 5px 5px #eae9e9
+}
+.place a{
+    text-decoration: none;
+}
+.place h3{
+    color: #181c34;
+    padding: 0 1em 0 1em;
+    font-family: Bahnschrift SemiBold;
+}
+.place a:visited {
+  color:  #181c34;
+}
+.place a:hover, .place a:active {
+  color: #d07e00;
+}
+.place p{
+    text-align: justify;
+    width: 25em;
+    padding: 0em 1em;
+    font-family: Cambria;
+    line-height: 1.3em;
+}
+.more{
+    text-align: center;
+    background-color: #181c34;
+    border-radius: 15px;
+    width: 7em;
+    height: 2em;
+    padding-top: 5px;
+    margin-left: 45%;
+}
+.more a:visited {
+  color: #fff;
+}
+.more a:hover, .more a:active {
+  color: #F9AB33;
+}
+.more a{
+    
+    text-decoration: none;
+}
+
+/*footer*/
+footer{
+    border: #181c34 1px solid;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+footer ul{
+    list-style-type: none;
+    text-decoration: none;
+}
+footer ul a{
+    
+    text-decoration: none;
+}
+#Information {
+    display: grid;
+    grid-template-columns: 33% 35% 35%;
+    grid-template-rows: auto;
+    font-family: Times New Roman;
+}
+#rightside ul li h4{
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize;
+}
+#rightside {
+    margin-left: 2em;
+    font-size: 20px;
+    line-height: 1.3em;
+    
+}
+#rightside  li{
+    margin: 7px;
+    text-transform: capitalize;
+}
+#rightside  a:visited {
+  color: #fff;
+}
+#rightside a:hover, #rightside a:active {
+  color: #F9AB33;
+}
+#simple{
+    text-transform: lowercase;
+}
+
+#logo2{
+    margin-left: 5em;
+    display: initial;
+    padding-left: 2em;
+}
+#center{
+    font-size: 18px;
+    color: #fff;
+    padding-top: 2em;     
+}
+#center p{
+    text-align: center;
+    right: 5em;
+}
+#leftside{
+    margin: 0 7em 0 7em;
+    text-align: right;
+        
+}
+#leftside h4{
+    font-size: 25px;
+    color: #fff;
+}
+#socialMediaimage{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    border-bottom: #FFF solid 2px;
+    border-top: #FFF solid 2px;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+    margin-left: 6em;
+    
+}
+#leftside .i{
+    margin-right: 30px
+}
+#leftside #contact_infor{
+    font-size: 18px;
+    color: #fff;
+}
+#leftside p a {
+    text-decoration: none;
+}
+#leftside a:visited {
+  color: #fff;
+}
+#leftside a:hover, #leftside a:active {
+  color: #F9AB33;
+}
+#bottom{
+    color: #fff;
+    text-align: center;
+    font-size: 1em;
+}
